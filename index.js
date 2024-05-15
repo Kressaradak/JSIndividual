@@ -1,5 +1,3 @@
-// index.js
-
 const fs = require('fs');
 
 class Transaction {
