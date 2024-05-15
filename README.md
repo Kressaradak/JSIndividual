@@ -68,34 +68,54 @@ mapTransactionDescriptions()
 # 4. Примеры использования проекта Пример использования класса TransactionAnalyzer:
 
 console.log("Уникальные типы транзакций:", analyzer.getUniqueTransactionTypes());
+
 console.log("Общая сумма:", analyzer.calculateTotalAmount());
+
 console.log("Общая сумма за январь 2019 года:", analyzer.calculateTotalAmountByDate(2019, 1));
+
 console.log("Дебетовые транзакции:", analyzer.getTransactionsByType('debit'));
+
 console.log("Транзакции в диапазоне дат:", analyzer.getTransactionsInDateRange('2019-01-01', '2019-01-02'));
+
 console.log("Средняя сумма транзакции:", analyzer.calculateAverageTransactionAmount());
+
 console.log("Общая сумма дебетовых транзакций:", analyzer.calculateTotalDebitAmount());
+
 console.log("Месяц с наибольшим количеством транзакций:", analyzer.findMostTransactionsMonth());
+
 console.log("Месяц с наибольшим количеством дебетовых транзакций:", analyzer.findMostDebitTransactionMonth());
+
 console.log("Самые часто встречающиеся типы транзакций:", analyzer.mostTransactionTypes());
+
 console.log("Транзакции до 1 января 2019 года:", analyzer.getTransactionsBeforeDate('2019-01-01'));
+
 console.log("Транзакция с ID 2:", analyzer.findTransactionById('2'));
+
 console.log("Описания транзакций:", analyzer.mapTransactionDescriptions());
+
 
 # 5. Ответы на контрольные вопросы
 
 -JavaScript поддерживает следующие примитивные типы данных:
 
    Числа (Numbers): Целые числа и числа с плавающей точкой.
+   
    Строки (Strings): Набор символов, заключенных в кавычки.
+   
    Булевы значения (Booleans): Значения true и false.
+   
    undefined: Значение, которое имеют переменные, когда им не было присвоено другое значение.
+   
    null: Значение, представляющее отсутствие значения.
+   
    Symbol: Уникальный и неизменяемый тип данных, используемый для создания уникальных ключей объектов.
 
 -В моем приложении для обработки и анализа данных я использовал следующие методы массивов:
 
    map(): Для преобразования каждого элемента массива в новое значение, например, для извлечения описаний транзакций.
+   
    filter(): Для фильтрации элементов массива на основе определенного условия, например, для получения транзакций определенного типа или в определенном диапазоне дат.
+   
    reduce(): Для вычисления значения на основе элементов массива, например, для вычисления общей суммы транзакций или суммы дебетовых транзакций.
 
 Эти методы помогли эффективно обрабатывать и анализировать данные о транзакциях, делая код более компактным и читаемым.
