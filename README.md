@@ -125,7 +125,6 @@ console.log("Описания транзакций:", analyzer.mapTransactionDes
 В JavaScript новый экземпляр класса можно создать с помощью оператора new, передавая аргументы конструктору класса (если это необходимо).
 
 # 6. Список источников
-  https://habr.com/ru/articles/572968/ - Работа с JSDoc
 
   https://learn.javascript.ru/types - Типы данных JS
   
